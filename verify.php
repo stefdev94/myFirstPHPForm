@@ -14,7 +14,7 @@
 				<h2>Verification Status</h2>
 			</div>
 			<form method="GET" action="verify.php">
-				<!--display validation errors here-->
+				<!-- display validation errors here -->
 				<?php include ('errors.php'); ?>
 				<div class="input-group">
 					<h3>Mr/Mrs <strong><?php echo ($_GET['username']);?></strong> a Verification Email has been sent to you.<br>

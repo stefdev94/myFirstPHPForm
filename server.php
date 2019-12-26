@@ -90,7 +90,6 @@
 
 	// If Index button is clicked, log user in using database
 	if (isset($_POST['index'])) {
-		echo "cccc";
 		$username = ($_POST['username']);
 		$password = ($_POST['password']);
 
@@ -104,7 +103,6 @@
 
 		// If there are no errors, log in user using database
 		if (count($errors) == 0) {
-			echo "bbbb";
 			$password = md5($password); // Encrypt password before comparing with that from database
 			$sql = "SELECT * FROM users WHERE username = '$username' AND password = '$password';";
 			$result = mysqli_query($conn, $sql);
