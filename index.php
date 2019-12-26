@@ -14,7 +14,7 @@
 				<h2>Login</h2>
 			</div>
 			<form method="POST" action="index.php">
-				<!--display validation errors here -->
+				<!--display validation errors here-->
 				<?php include ('errors.php'); ?>
 				<div class="input-group">
 					<label>Username</label>
