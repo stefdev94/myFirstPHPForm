@@ -1,0 +1,8 @@
+**PENDING**
+	-Na ftiaksw ligo to css gia na fainontai ola kalutera
+	-Na allaksw ton tupo string pou dexetai gia username, email kai password pou eisagw sth vash
+		(1.To username na einai monadiko kai na periexei apo 4 xarakthres kai panw kai na mhn exei kena
+		 2.To password na periexei 4 xarakthres toulaxiston, ena kefalaio, kai enan ari8mo
+		 3.To email na einai tupou email p.x. "user@something.something"
+	-Na kanw klash "success" kai na thn kalw otan kanw edit profile 'h edit password
+	-Na eisagw eikones sth vash kai koumpi browse sto edit profile sto opoio tha kanw upload to arxeio eikonas kai tha fenetai sto profile
